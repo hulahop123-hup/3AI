@@ -6,6 +6,31 @@
     <title>Bundling HEMAT 3 AI - Solusi Produk Digital</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- ========================================== -->
+    <!-- MULAI KODE META PIXEL (PASTE ID KAMU DI SINI) -->
+    <!-- ========================================== -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      
+      // GANTI TULISAN DI BAWAH DENGAN ID PIXEL KAMU
+      fbq('init', '428936831854690'); 
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=MASUKKAN_ID_PIXEL_KAMU_DI_SINI&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- ========================================== -->
+    <!-- AKHIR KODE META PIXEL -->
+    <!-- ========================================== -->
+
     <style>
         :root {
             --primary-color: #f39c12;
@@ -79,7 +104,7 @@
             display: block;
         }
 
-        /* Product Cards (Penekanan Ulang) */
+        /* Product Cards */
         .card {
             background: var(--card-bg);
             border: 1px solid #334155;
@@ -219,7 +244,6 @@
         <p style="font-size: 14px; opacity: 0.9; margin-bottom: 10px;">Satu ekosistem lengkap untuk hasilkan cuan tanpa harus coding atau rekam suara.</p>
     </header>
 
-    <!-- Detail Breakdown (Untuk meyakinkan audiens yang suka membaca detail) -->
     <div class="card">
         <span class="price-tag">Nilai: Rp 49.000</span>
         <h3>🤖 AI Mentor</h3>
@@ -262,8 +286,11 @@
         <span class="new-price">Rp 299.000</span>
         <p class="stock-limit">⚠️ SISA 3 SLOT LAGI DENGAN HARGA INI!</p>
         
-        <!-- GANTI LINK LYNK.ID DI BAWAH INI -->
-        <a href="URL_LINK_ID_KAMU_DI_SINI" target="_blank" class="btn-checkout">
+        <!-- ========================================== -->
+        <!-- GANTI LINK LYNK.ID PADA HREF DI BAWAH INI  -->
+        <!-- EVENT INITIATE CHECKOUT SUDAH TERPASANG    -->
+        <!-- ========================================== -->
+        <a href="http://lynk.id/promoterlaris/zx36mzx54nye/checkout" target="_blank" class="btn-checkout" onclick="fbq('track', 'InitiateCheckout');">
             AKTIFKAN SISTEM 3 AI SEKARANG ➔
         </a>
         <p style="font-size: 11px; margin-top: 15px; opacity: 0.7;">✅ Akses Lifetime &nbsp; • &nbsp; ✅ Tanpa Biaya Bulanan</p>
